@@ -169,8 +169,8 @@ header {
 .nav-menu .submenu {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
     padding: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -180,6 +180,7 @@ header {
 
 .nav-menu .submenu li {
     display: block;
+    padding: 15px 0px;
 }
 
 .nav-menu .submenu li a {
@@ -204,7 +205,6 @@ header {
 
 .w-slide {
     position: relative;
-    padding-top: 3em;
     padding-bottom: 8em;
 }
 
