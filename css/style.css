@@ -554,18 +554,11 @@ p {
 
 .footer .group-content {
     display: flex;
-}
-
-.footer-logo-wrapper {
-    width: 230px;
+    justify-content: space-between;
 }
 
 .footer-link-wrapper {
-    flex: 1;
-    margin-left: 350px;
-}
-
-.footer-link-wrapper {
+    margin-left: 450px;
     display: flex;
 }
 
@@ -595,6 +588,7 @@ li {
     line-height: 1.5em;
     font-weight: 400;
     text-decoration: none;
+    padding: 0px 20px;
 }
 
 .footer-link:hover {
