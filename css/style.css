@@ -1,0 +1,627 @@
+:root {
+    --color-primary: #459d7a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Larsseit;
+    color: hsla(0, 0.00%, 66.67%, 1.00);
+    font-size: 1.25vw;
+    line-height: 1em;
+    background-color: #101010;
+    background-image: url(../image/bg-header-dot.svg), url(../image/bg-header-right.svg), url(../image/bg-header-left.svg);
+    background-position: 50% 50%, 100% 50%, 0px 0px;
+    background-size: auto 45.25em, auto 28em, auto 17.875em;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.war-conten {
+    max-width: 1366px;
+    margin: auto;
+}
+
+
+/**/
+
+.txt-xxl {
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    line-height: 1.1em;
+    font-weight: 900;
+}
+
+.txt-m {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.txt-xl {
+    color: black;
+    font-size: 2.5em;
+    line-height: 1.4em;
+}
+
+.txt-sm {
+    color: rgb(199, 187, 179);
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.txt-s {
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+.txt-name {
+    color: black;
+    font-size: 400;
+    font-size: 1.125em;
+    line-height: 1em;
+}
+
+.txt-xs {
+    font-size: 1em;
+    line-height: 1.6em;
+    font-style: italic;
+    font-size: 400;
+}
+
+
+/*header*/
+
+header {
+    padding-top: 1em;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.container-I {
+    margin-left: 100px;
+    width: 90%;
+    max-width: 1280px;
+    display: flex;
+}
+
+.logo-nav {
+    max-height: 1.625em;
+}
+
+.nav-menu {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.nav-link-wraper {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-gap: 3.25em;
+}
+
+.navbar-nav {
+    margin-top: -22px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    grid-column-gap: 3.25em;
+}
+
+.nav-btn-wrapper {
+    grid-column-gap: 1.75em;
+}
+
+.btn {
+    padding-top: 0.778em;
+    padding-right: 1.333em;
+    padding-bottom: 0.778em;
+    padding-left: 1.333em;
+    border-top-left-radius: 0.889em;
+    border-top-right-radius: 0.889em;
+    border-bottom-left-radius: 0.899em;
+    border-bottom-right-radius: 0.889em;
+    background-color: #72e485;
+    font-family: Lato;
+    color: hsla(0, 0.00%, 0.00%, 1.00);
+    font-size: 1.125em;
+    line-height: 1.3em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(113, 181, 122);
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu .dropdow-toogle:hover .submenu {
+    display: block;
+}
+
+.nav-menu .submenu li {
+    display: block;
+}
+
+.nav-menu .submenu li a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu .submenu li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*section*/
+
+#section {
+    padding-bottom: 5.625em;
+}
+
+
+/*slider*/
+
+.w-slide {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 8em;
+}
+
+.w-slide .container {
+    padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    width: 90%;
+    max-width: 1280px;
+}
+
+.w-slide .group-slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-wrapper {
+    position: relative;
+    max-width: 42.6em;
+    min-height: 0px;
+}
+
+.header-img-wrapper {
+    margin-top: 30px;
+    margin-right: 80px;
+    position: relative;
+    max-width: auto;
+    min-height: auto;
+}
+
+.hero-text-wrapper .cropper {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.w-slide .container .amazon-left {
+    position: absolute;
+    left: -3em;
+    top: 20.75em;
+    width: 20em;
+    height: 3.875em;
+}
+
+.w-slide .container .amazon-img {
+    box-shadow: 0 40px 60px 0 hsla(0, 0.00%, 20.00%, 0.20);
+}
+
+.w-slide .container .mcd-right {
+    position: absolute;
+    right: -4.5em;
+    bottom: 3em;
+    width: 20em;
+    height: 3.875em;
+}
+
+.w-slide .container .mcd-right {
+    box-shadow: 0 40px 60px 0 hsla(0, 0.00%, 20.00%, 0.20);
+}
+
+.store-wrapper {
+    margin-right: 20px;
+}
+
+
+/*end slider*/
+
+
+/*w-about*/
+
+.w-about {
+    position: relative;
+    background-image: url("..//image/background-2.svg"), linear-gradient(rgb(248, 248, 248), rgb(248, 248, 248));
+    /* Tấm hình và màu nền xanh */
+    background-blend-mode: multiply;
+    /* Áp dụng hiệu ứng nhân màu */
+    background-size: cover;
+    padding: 5em 0;
+}
+
+.group-title {
+    text-align: center;
+}
+
+.w-about .group-content {
+    margin-top: 5em;
+    overflow: hidden;
+}
+
+.group-title .cropper {
+    max-width: 45.25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-about .group-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-about .card {
+    width: 240px;
+    height: 332px;
+    color: black;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.w-about img {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.w-about .card:hover {
+    background-color: rgb(136, 232, 152);
+}
+
+.w-about .group-title .txt-m {
+    color: rgb(199, 187, 179);
+}
+
+.w-about .card .txt-m {
+    margin-top: 20px;
+    color: black;
+    font-style: unset;
+    margin-left: 30px;
+}
+
+.w-about .card .txt-sm {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.w-about .group-about {
+    margin: 0 100px;
+}
+
+
+/**/
+
+.w-about .card {
+    transition: all 0.3s;
+}
+
+.w-about .card:hover {
+    /*transform: scale(1.05);*/
+    background-color: #f1f1f1;
+}
+
+.w-about .card:hover h1,
+.w-about .card:hover p {
+    opacity: 1;
+    color: #000;
+}
+
+.w-about .card h1,
+.w-about .card p {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.w-about .card:hover {
+    background-color: rgb(136, 232, 152);
+}
+
+
+/*end w-about*/
+
+
+/*w-wrapper*/
+
+.w-wrapper {
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+
+.w-wrapper .btn-wrapper {
+    padding-top: 0.875em;
+    padding-right: 1.5em;
+    padding-bottom: 0.875em;
+    padding-left: 1.5em;
+    border: #72e485;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #72e485;
+    color: hsla(0, 0.00%, 0.00%, 1.00);
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn-wrapper:hover {
+    cursor: pointer;
+    background-color: rgb(65, 142, 88);
+}
+
+.group-wrapper-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.group-wrapper-top .group-title {
+    padding-left: 30px;
+    /*xóa*/
+    text-align: start;
+    width: 50%;
+    height: 320px;
+}
+
+
+/**/
+
+.group-wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-wrapper-bottom .group-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-wrapper-bottom .group-title {
+    text-align: start;
+    width: 50%;
+    height: 320px;
+}
+
+.group-wrapper-bottom .txt-m {
+    color: #101010;
+}
+
+.group-wrapper-bottom .card {
+    width: 200px;
+    border: none;
+}
+
+.group-wrapper-bottom .card h2,
+p {
+    margin-top: 20px;
+}
+
+
+/*end wrapper */
+
+
+/*w-feedback*/
+
+.w-feedback {
+    position: relative;
+    background-image: url("..//image/background-2.svg"), linear-gradient(rgb(248, 248, 248), rgb(248, 248, 248));
+    /* Tấm hình và màu nền xanh */
+    background-blend-mode: multiply;
+    /* Áp dụng hiệu ứng nhân màu */
+    background-size: cover;
+    padding: 100px;
+}
+
+.w-feedback .group-title,
+.group-content {
+    padding-bottom: 50px;
+}
+
+.w-feedback .slider-item {
+    padding: 30px;
+    background-color: white;
+    height: 295px;
+    border: none;
+    border-radius: 20px;
+}
+
+.w-feedback .slider-item-footer {
+    display: flex;
+}
+
+.w-feedback .slider-item-footer .left {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.w-feedback .slider-item-footer .right {
+    flex: 1;
+}
+
+.w-feedback .slider-item-footer .right img {
+    margin-left: 270px;
+}
+
+.w-feedback .slider-item-footer .left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.w-feedback .slider-item-footer .left img {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.w-feedback .slider-item-footer .left .name-wrapper {
+    margin-left: 20px;
+}
+
+.w-feedback h2 {
+    color: black;
+    font-style: unset;
+}
+
+
+/*end feedback*/
+
+
+/*w-information*/
+
+.w-information {
+    padding: 100px 0;
+    margin-top: 0px;
+    position: relative;
+    background-image: url("..//image/background-2.svg"), linear-gradient(rgba(114, 228, 133), rgba(114, 228, 133));
+    /* Tấm hình và màu nền xanh */
+    background-blend-mode: multiply;
+    /* Áp dụng hiệu ứng nhân màu */
+    background-size: cover;
+}
+
+.w-information .group-information {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+
+/*end information*/
+
+.footer {
+    position: relative;
+}
+
+.footer .group-content {
+    display: flex;
+}
+
+.footer-logo-wrapper {
+    width: 230px;
+}
+
+.footer-link-wrapper {
+    flex: 1;
+    margin-left: 350px;
+}
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+.footer-link-wrapper p,
+.footer-link-list {
+    color: white;
+    width: 180px;
+}
+
+.footer-link,
+ul,
+li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-link-wrapper .title {
+    margin-top: 0px;
+}
+
+.footer-link {
+    display: block;
+    color: hsla(0, 0.00%, 100.00%, 1.00);
+    margin-bottom: 0.5em;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: dimgrey;
+}
+
+.overflow {
+    margin-top: 40px;
+}
+
+.overflow :hover {
+    color: dimgrey;
+}
+
+.footer-logo-wrapper i {
+    color: rgb(245, 242, 242);
+    font-size: 25px;
+    margin-right: 20px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: hsla(0, 0.00%, 100.00%, 1.00);
+    border-top: rgb(35, 35, 35) solid 2px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.w-information .txt-xs {
+    color: black;
+}
